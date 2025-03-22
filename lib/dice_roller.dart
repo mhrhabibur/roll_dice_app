@@ -13,7 +13,6 @@ class DiceRoller extends StatefulWidget {
 class _DiceRollState extends State<DiceRoller> {
   final randomizer = Random();
   var currentDiceRoll = 2;
-  var imageName = 'assets/images/dice-2.png';
   void rollDice() {
     setState(() {
       currentDiceRoll = randomizer.nextInt(6) + 1;

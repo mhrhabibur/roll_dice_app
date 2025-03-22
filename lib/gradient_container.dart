@@ -4,7 +4,6 @@ import 'package:roll_dice_app/dice_roller.dart';
 const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;
 var imageName = 'assets/images/dice-2.png';
-var imageNumber = 1;
 
 class GradientContainer extends StatelessWidget {
   const GradientContainer(this.firstColor, this.lastColor, {super.key});
